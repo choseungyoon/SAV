@@ -146,15 +146,15 @@ public class NaverTalkActivity extends Activity {
 
     // Declare handler for handling SpeechRecognizer thread's Messages.
     static class RecognitionHandler extends Handler {
-        private final WeakReference<MainActivity> mActivity;
+        private final WeakReference<NaverTalkActivity> mActivity;
 
-        RecognitionHandler(MainActivity activity) {
-            mActivity = new WeakReference<MainActivity>(activity);
+        RecognitionHandler(NaverTalkActivity activity) {
+            mActivity = new WeakReference<NaverTalkActivity>(activity);
         }
 
         @Override
         public void handleMessage(Message msg) {
-            MainActivity activity = mActivity.get();
+            NaverTalkActivity activity = mActivity.get();
             if (activity != null) {
                 activity.handleMessage(msg);
             }
