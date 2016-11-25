@@ -1,19 +1,18 @@
 package com.example.seungyoon.sav.naverTalk;
 
-
 import java.lang.ref.WeakReference;
 
 import com.example.seungyoon.sav.utils.AudioWriterPCM;
 import com.naver.speech.clientapi.SpeechConfig;
-
 import com.example.seungyoon.sav.R;
+
 import android.app.Activity;
+
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -97,7 +96,7 @@ public class NaverTalkActivity extends Activity {
         handler = new RecognitionHandler(this);
         naverRecognizer = new NaverRecognizer(this, handler, CLIENT_ID, SPEECH_CONFIG);
 
-        btnStart.setOnClickListener(new OnClickListener() {
+        btnStart.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {

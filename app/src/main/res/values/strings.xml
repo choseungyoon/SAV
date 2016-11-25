@@ -1,3 +1,141 @@
 <resources>
-    <string name="app_name">SAV</string>
+    <string name="app_name">Weather_Project</string>
+
+    <!-- Dialog를 위한 -->
+    <string name="alert_dialog_single_choice">알림 메뉴</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_setting">설정</string>
+    <string name="alert_dialog_cancel">취소</string>
+    <string name="dialog_activity_text">Example of how you can use the
+            Theme.Dialog theme to make an activity that looks like a
+            dialog.</string>
+
+    <string name="alert_dialog_text_entry">IP와 Port번호 입력</string>
+    <string name="alert_dialog_ipaddr">IP address:</string>
+    <string name="alert_dialog_port">Port Number:</string>
+
+    <string name="select_city">도시 선택</string>
+
+
+    <string name="select_sunny">맑음 명령어</string>
+    <string name="select_cloudy">흐림 명령어</string>
+    <string name="select_rain">비 명령어</string>
+    <string name="select_snow">눈 명령어</string>
+    <string name="select_drizzle">안개 명령어</string>
+    <string name="select_thunder">천둥/번개 명령어</string>
+    <string name="select_extreme">기상이변 명령어</string>
+    <string name="select_direct">뷰 타워에서 날씨 보기</string>
+    <string name="select_view">뷰 타워에서 날씨 설정</string>
+
+    <string name="alert_dialog_sunny">맑음 명령어 보기</string>
+    <string name="alert_dialog_cloudy">흐림 명령어 보기</string>
+    <string name="alert_dialog_rain">비 명령어 보기</string>
+    <string name="alert_dialog_snow">눈 명령어 보기</string>
+    <string name="alert_dialog_drizzle">안개 명령어 보기</string>
+    <string name="alert_dialog_thunder">천둥/번개 명령어 보기</string>
+    <string name="alert_dialog_extreme">기상이변 명령어 보기</string>
+    <string name="alert_dialog_direct">뷰 타워에서 날씨 보기</string>
+
+
+    <string name="alert_dialog_sun_choice">타워 설정(맑음)</string>
+    <string name="alert_dialog_cloud_choice">타워 설정(흐림)</string>
+    <string name="alert_dialog_rain_choice">타워 설정(비)</string>
+    <string name="alert_dialog_snow_choice">타워 설정(눈)</string>
+    <string name="alert_dialog_thunder_choice">타워 설정(천둥)</string>
+    <string name="alert_dialog_drizzle_choice">타워 설정(안개)</string>
+    <string name="alert_dialog_extreme_choice">타워 설정(기상이변)</string>
+
+    <!-- GCM -->
+    <string name="registering_message_ready">InstanceID 토큰 가져오기</string>
+    <string name="registering_message_generating">InstanceID 토큰 생성중...</string>
+    <string name="registering_message_complete">완료!</string>
+
+    <string name="google_app_id">923823672586</string>
+
+    <!-- Splash -->
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Kakao Talk -->
+    <string name="text_kakaostory">KakaoStory</string>
+    <string name="text_kakaotalk">KakaoTalk</string>
+    <string name="text_push">Push</string>
+    <string name="text_usermgmt">User Management</string>
+    <string name="text_friends">Friends</string>
+    <string name="text_login">Login</string>
+    <string name="text_storage">Storage API</string>
+    <string name="text_chat_list">Chat Lists</string>
+
+
+    <!-- Naver Voice API -->
+    <string name="str_start">Voice Command</string>
+    <string name="str_listening">인식 중...</string>
+
+    <!-- For kakaoStory -->
+    <string name="kakaostory_user_check_button">Check Story User</string>
+    <string name="kakaostory_profile_button">Get Story Profile</string>
+    <string name="kakaostory_note_post_button">Post Note</string>
+    <string name="kakaostory_photo_post_button">Post Photo</string>
+    <string name="kakaostory_link_post_button">Post Link</string>
+    <string name="kakaostory_get_post_button">Get Last Photo</string>
+    <string name="kakaostory_get_posts_button">Get Recent Posts</string>
+    <string name="kakaostory_delete_post_button">Delete Last Post</string>
+    <string name="kakaostory_birthday_label">birthday</string>
+
+    <!-- For kakaoTalk -->
+    <string name="kakaotalk_profile_button">Get Talk Profile</string>
+    <string name="kakaotalk_country_label">country ISO</string>
+
+    <!-- For Kakao Push -->
+    <string name="push_notification_title">PushSample Notification</string>
+    <string name="push_send">Send push msg to me</string>
+    <string name="push_tokens">Get push token info</string>
+    <string name="push_unregister">Unregister push token</string>
+    <string name="push_register">Register push token</string>
+
+    <!-- For Kakao Push -->
+    <string name="usermgmg_signup_button">Signup</string>
+    <string name="usermgmg_me_button">Me</string>
+    <string name="usermgmg_update_profile_button">Update</string>
+
+    <string name="usermgmg_name">Write Your Name</string>
+    <string name="usermgmg_age">Write Your Age</string>
+    <string name="usermgmg_gender">Write Your Gender</string>
+
+    <string name="com_kakao_profile_nickname">Alias</string>
+    <string name="com_kakao_profile_birthday">BirthDay</string>
+    <string name="error_message_for_service_unavailable">Unstable network connection. \nPlease try again later.</string>
+
+
+    <!-- NEW DISIGN -->
+    <string name="title_for_kakao_sdk_sample">Kakao SDK Sample</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="text_for_login_kakao_account">Log in with Kakao</string>
+
+    <string name="image_upload">Image Upload</string>
+    <string name="pick_iamges">Pick Images</string>
+
+    <string name="send_message">Send the message below?</string>
+
+    <string-array name="usermgmg_gender_types">
+        <item>@string/female</item>
+        <item>@string/male</item>
+    </string-array>
+
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+    <string name="text_send_message">Send Message</string>
+
+    <string name="message_type">Choose a message type</string>
+    <string-array name="message_types">
+        <item>NORMAL</item>
+        <item>INVITE</item>
+        <item>FEED</item>
+    </string-array>
+
+    <string name="text_send_to_me">Send Message to me</string>
+    <string name="title_activity_city">CityActivity</string>
 </resources>
