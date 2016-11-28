@@ -91,7 +91,7 @@ public class NaverTalkActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         txtResult = (TextView) findViewById(R.id.txt_result);
-        btnStart = (Button) findViewById(R.id.btn_start);
+        btnStart = (Button) findViewById(R.id.btn_voice);
 
         handler = new RecognitionHandler(this);
         naverRecognizer = new NaverRecognizer(this, handler, CLIENT_ID, SPEECH_CONFIG);
