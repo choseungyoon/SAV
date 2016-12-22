@@ -10,24 +10,27 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.pcl.myapplication.MainActivity">
 
-    <Button
-        android:id="@+id/btn_voice"
-        android:drawableLeft="@android:drawable/ic_btn_speak_now"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textSize="10dp"
-        android:text="음성 제어">
-    </Button>
 
     <TextView
         android:id="@+id/txt_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn_voice"
         android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="24pt"
         android:singleLine="false" />
+
+    <Button
+        android:id="@+id/btn_voice"
+        android:drawableLeft="@android:drawable/ic_btn_speak_now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+    </Button>
 
 
 </RelativeLayout>
