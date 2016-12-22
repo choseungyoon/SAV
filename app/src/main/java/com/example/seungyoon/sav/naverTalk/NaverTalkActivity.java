@@ -47,6 +47,7 @@ public class NaverTalkActivity extends Activity {
 
     public static ListViewAdapter listviewadapter;
 
+
     // Handle speech recognition Messages.
     private void handleMessage(Message msg) {
         switch (msg.what) {
